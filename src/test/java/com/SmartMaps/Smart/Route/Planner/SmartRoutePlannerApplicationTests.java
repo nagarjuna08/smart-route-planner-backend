@@ -1,0 +1,13 @@
+package com.SmartMaps.Smart.Route.Planner;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SmartRoutePlannerApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
