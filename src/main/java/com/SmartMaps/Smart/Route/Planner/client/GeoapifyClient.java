@@ -17,7 +17,7 @@ public class GeoapifyClient {
                 this.webClient = webClient;
         }
 
-        @Value("$geoapify.api.key")
+        @Value("${geoapify.api.key}")
         private String apiKey;
 
         public Coordinate fetchCoordinates(String location) {
