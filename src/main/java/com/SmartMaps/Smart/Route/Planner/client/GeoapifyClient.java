@@ -23,6 +23,8 @@ public class GeoapifyClient {
         public Coordinate fetchCoordinates(String location) {
 
                 System.out.println("USING GEOAPIFY -> " + location);
+                System.out.println("USING GEOAPIFY -> " + location);
+                System.out.println("API KEY LENGTH = " + (apiKey == null ? "NULL" : apiKey.length()));
                 GeoapifyResponse response = webClient.get()
                                 .uri(uriBuilder -> uriBuilder
                                                 .scheme("https")
